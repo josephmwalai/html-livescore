@@ -59,11 +59,11 @@ body {
   background-color: var(--color-bg-primary);
   display: flex;
   min-width: 600px;
-  border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+  border-radius: 10px 10px 0 0; 
   color: var(--color-text-primary);
   box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
-  border-bottom: 2px solid var(--color-text-secondary); /* Add this line */
-  padding-bottom: 12px; /* Optional: Add padding at the bottom */
+  border-bottom: 2px solid var(--color-text-secondary); 
+  padding-bottom: 12px; 
 }
 
 .match-status {
@@ -173,6 +173,17 @@ body {
   line-height: 1;
   color: var(--color-text-secondary);
 }
+
+.half-time-score {
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 12px;
+  display: flex;
+  color: var(--color-theme-primary);
+}
+
+
 .match-score-number--leading{
   color: var(--color-theme-primary);
 }
@@ -215,13 +226,22 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border: none;
-  background-color: var(--color-theme-primary);
+  background-color: var(--color-text-secondary);
   border-radius: 60px;
   padding: 10px 48px;
   color: rgba(#fff, 0.9);
   font-size: 14px;
   box-shadow: 0 4px 8px 0 rgba(#303030, 0.25);
 }
+
+
+
+.match-bet-place:hover {
+  background-color: var(--color-theme-primary);
+    cursor: default;
+}
+
+
 .container {
   position: absolute;
   top: 0;
