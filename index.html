@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Soccer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined|Material+Icons" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="match">
+            <div class="match-header">
+                <div class="match-status">Live</div>
+                <div class="match-tournament">
+                    <img src="/assets/premier-league-new-logo.png" alt="EPL">English Premier League
+                </div>
+                <div class="match-action">
+                    <button class="btn-icon">
+                        <i class="material-icons-outlined">grade</i>
+                    </button>
+                    <button class="btn-icon">
+                        <i class="material-icons-outlined">add_alert</i>
+                    </button>
+                </div>
+            </div>
+            <div class="match-content">
+                <div class="column">
+                    <div class="team team--home">
+                        <div class="team-logo">
+                            <img src="./assets/liverpool.png" alt="liverpool">
+                        </div>
+                        <h2 class="team-name">Liverpool</h2>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="match-details">
+                        <div class="match-date">
+                            1 March at <strong>17:30</strong>
+                        </div>
+                        <div class="match-score">
+                            <span class="match-score-number match-score-number--leading">7</span>
+                            <span class="match-score-divider">:</span>
+                            <span class="match-score-number">0</span>
+                        </div>
+                        <div class="match-time-lapse">
+                            87'
+                        </div>
+                        <div class="match-referee">
+                            Referee: <strong>Michael Oliver</strong>
+                        </div>
+                        <div class="match-bet-options">
+                            <button class="match-bet-option">1.05</button>
+                            <button class="match-bet-option">80.89</button>
+                            <button class="match-bet-option">100.50</button>
+                        </div>
+                        <button class="match-bet-place">Place a bet</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="team team--away">
+                        <div class="team-logo">
+                            <img src="./assets/manu.png" alt="manu">
+                        </div>
+                        <h2 class="team-name">Manchester</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
