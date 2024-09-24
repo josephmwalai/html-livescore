@@ -44,6 +44,23 @@ body {
   box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
 }
 
+.match {
+  border-radius: 10px;
+  display: flex;
+  background-color: var(--color-bg-primary);
+  min-width: 600;
+  box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
+}
+
+.match-header {
+  background-color: var(--color-bg-primary);
+  display: flex;
+  min-width: 600px;
+  border-radius: 10px;
+  color: var(--color-text-primary);
+  box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
+}
+
 .match-status {
   background-color: var(--color-bg-alert);
   color: var(--color-text-alert);
@@ -70,14 +87,16 @@ body {
   display: flex;
   align-items: center;
   font-style: 600;
+  color: var(--color-text-primary);
   img {
     width: 20px;
     margin-right: 12px;
   }
 }
-.match-actions {
+.match-action {
   display: flex;
   margin-left: auto;
+
 }
 .btn-icon {
   border: none;
@@ -123,6 +142,7 @@ body {
   margin-top: 24px;
   font-size: 20px;
   font-weight: 600;
+  color: var(--color-text-primary);
 }
 .match-details {
   display: flex;
