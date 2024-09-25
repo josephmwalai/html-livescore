@@ -112,7 +112,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
+
+.btn-icon i.active {
+  color: gold;
+}
+
 .match-content {
   display: flex;
   position: relative;
